@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import { ReactComponent as Home } from "../../img/home.svg";
-import { ReactComponent as SearchMap } from "../../img/map.svg";
-import { ReactComponent as Search } from "../../img/search.svg";
 import DetailModal from "./DetailModal";
+const Home = `${process.env.PUBLIC_URL}/img2/home.svg`;
+
+
 
 const DetailedSearch = () => {
     const [modal, setModal] = useState(false);

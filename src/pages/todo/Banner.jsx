@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import BannerImg_1 from "../../img/BannerImg1.png";
-import BannerImg_2 from "../../img/BannerImg2.png";
-import BannerImg_3 from "../../img/BannerImg3.png";
-import BannerImg_4 from "../../img/BannerImg4.png";
+
+const BannerImg_1 = `${process.env.PUBLIC_URL}/img2/BannerImg1.png`;
+const BannerImg_2 = `${process.env.PUBLIC_URL}/img2/BannerImg2.png`;
+const BannerImg_3 = `${process.env.PUBLIC_URL}/img2/BannerImg3.png`;
+const BannerImg_4 = `${process.env.PUBLIC_URL}/img2/BannerImg4.png`;
 
 
 const Banner = () => {

@@ -1,8 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { ReactComponent as Home } from "../../img/home.svg";
-import { ReactComponent as SearchMap } from "../../img/map.svg";
-import { ReactComponent as Search } from "../../img/search.svg";
+
 
 const RegionModal = (props) => {
   return(

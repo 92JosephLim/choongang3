@@ -1,11 +1,11 @@
 import BasicLayout from "../layouts/BasicLayout";
-import DetailedSearch from "./todo/DetailedSearch";
-import { ReactComponent as Search } from "../img/searchmini.svg";
-import moo from '../img/moo.png' 
+import DetailedSearch from "./todo/DetailedSearch"; 
 import { useState } from "react";
 import RegionModal from "./todo/RegionModal";
 import ListGocampingComponent from "../components/todo/ListGocampingComponent";
 
+
+const Search = `${process.env.PUBLIC_URL}/img2/searchmini.svg`;
 
 const SearchPage = () => {
     const [modal, setModal] = useState(false);

@@ -5,7 +5,8 @@ import root from '../../router/root';
 import styled from 'styled-components';
 import { useState } from 'react';
 import axios from 'axios';
-import Clouds from '../../img/cloudy.svg';
+
+const Clouds = `${process.env.PUBLIC_URL}/img2/cloudy.svg`;
 
 
 

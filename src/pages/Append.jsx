@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import sunnydown from '../img/sunnydown.svg';
-import foggydown from '../img/foggydown.svg';
-import cloudydown from '../img/cloudydown.svg';
-import rainydown from '../img/rainydown.svg';
-import snowydown from '../img/snowydown.svg';
-import { ReactComponent as SearchMap } from '../img/down.svg';
+
+
+const sunnydown = `${process.env.PUBLIC_URL}/img2/sunnydown.svg`;
+const foggydown = `${process.env.PUBLIC_URL}/img2/foggydown.svg`;
+const cloudydown = `${process.env.PUBLIC_URL}/img2/cloudydown.svg`;
+const rainydown = `${process.env.PUBLIC_URL}/img2/rainydown.svg`;
+const snowydown = `${process.env.PUBLIC_URL}/img2/snowydown.svg`;
+const SearchMap = `${process.env.PUBLIC_URL}/img2/down.svg`;
+
+
+
 
 const API_KEY = '17b429a820b8a6496558ef04590c64f9';
 

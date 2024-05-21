@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 
-import { ReactComponent as ThemeIcon_1 } from "../../img/beach.svg";
-import { ReactComponent as ThemeIcon_2 } from "../../img/beach.svg";
-import { ReactComponent as ThemeIcon_3 } from "../../img/mountain.svg";
-import { ReactComponent as ThemeIcon_4 } from "../../img/forest.svg";
-import { ReactComponent as ThemeIcon_5 } from "../../img/beach.svg";
-import { ReactComponent as ThemeIcon_6 } from "../../img/beach.svg";
-import { ReactComponent as ThemeIcon_7 } from "../../img/beach.svg";
-import { ReactComponent as ThemeIcon_8 } from "../../img/city.svg";
+
+const ThemeIcon_1 = `${process.env.PUBLIC_URL}/img2/beach.svg`;
+const ThemeIcon_2 = `${process.env.PUBLIC_URL}/img2/beach.svg`;
+const ThemeIcon_3 = `${process.env.PUBLIC_URL}/img2/mountain.svg`;
+const ThemeIcon_4 = `${process.env.PUBLIC_URL}/img2/forest.svg`;
+const ThemeIcon_5 = `${process.env.PUBLIC_URL}/img2/beach.svg`;
+const ThemeIcon_6 = `${process.env.PUBLIC_URL}/img2/beach.svg`;
+const ThemeIcon_7 = `${process.env.PUBLIC_URL}/img2/beach.svg`;
+const ThemeIcon_8 = `${process.env.PUBLIC_URL}/img2/city.svg`;
+
 
 
 const Themes = () => {

@@ -3,9 +3,11 @@ import { getList3 } from "../../api/gocamping";
 import useCustomMove from "../../hooks/useCustomMove";
 
 import PageComponent from "../common/PageComponent";
-
-import { ReactComponent as SearchMap } from "../../img/map.svg";
 import { Link } from "react-router-dom";
+
+const SearchMapIcon = `${process.env.PUBLIC_URL}/img2/map.svg`;
+
+
 
 const initState = {
   dtoList: [],
@@ -53,7 +55,7 @@ const ListGocampingComponent = () => {
 
                     <div id="contents" className=" m-5 grid grid-cols-8 ml border-2 rounded-t-xl ">
                             <Link to={`/read{gocamping.tno}`}>
-                             <SearchMap />
+                             <SearchMapIcon />
                              </Link>
                         <div id="searchImage" className="col-start-1 col-span-8 text-black bg-[#b9b9ff]">  <img src={gocamping.firstImageUrl} alt="이미지 설명"   className="w-full" onClick={() => moveToRead(gocamping.tno)}/>
                         </div>

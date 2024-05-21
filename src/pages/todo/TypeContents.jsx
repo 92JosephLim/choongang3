@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
-import ContentImg_1 from '../../img/contentImg_1.png';
-import ContentImg_2 from '../../img/contentImg_2.png';
+
+
+const ContentImg_1 = `${process.env.PUBLIC_URL}/img2/contentImg_1.png`;
+const ContentImg_2 = `${process.env.PUBLIC_URL}/img2/contentImg_2.png`;
+
 
 const TypeContents = ({ imgSrc }) => {
     return (
