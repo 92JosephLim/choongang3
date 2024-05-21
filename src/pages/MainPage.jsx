@@ -7,7 +7,7 @@ import Append from "./Append";
 const MainPage = () => {
     return(
         <BasicLayout>
-            <p>test</p>
+            <p>test2</p>
             {/* <div className="text-3xl"> MainPage</div> */}
             <Banner />
             <Themes />
